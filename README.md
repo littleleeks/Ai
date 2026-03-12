@@ -70,7 +70,7 @@ Analyze Windows or Linux kernel driver source code.
 
 Example:
 ```
-/analyze-driver
+//driver-analyzer
 #include <ntddk.h>
 
 NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject,
@@ -90,7 +90,7 @@ MCP automatically analyzes in conjunction with tools such as IDA and XDBG
 ```
 Example:
 
-/analyze-driver 根据MCP连接对代码进行分析
+/driver-analyzer 根据MCP连接对代码进行分析
 ```
 
 ## Security Audit Coverage
