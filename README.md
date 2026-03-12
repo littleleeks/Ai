@@ -70,7 +70,7 @@ Analyze Windows or Linux kernel driver source code.
 
 Example:
 ```
-//driver-analyzer
+/driver-analyzer
 #include <ntddk.h>
 
 NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject,
